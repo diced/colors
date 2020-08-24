@@ -55,9 +55,6 @@ for (let i = 0; i < Object.keys(Style).length; i++) {
 for (const code of Object.keys(Foreground)) exports[code] = (msg) => `${create(Foreground[code])}${msg}${create(39)}`;
 for (const code of Object.keys(Background)) exports[code] = (msg) => `${create(Background[code])}${msg}${create(49)}`;
 
-
-for (const c of Object.keys(exports)) console.log(`export function ${c}(msg: string): string;`);
-
 exports.create = create;
 exports.style = Style;
 exports.background = Background;
