@@ -1,8 +1,9 @@
 {
   "name": "@dicedtomato/colors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simply lightweight terminal colors.",
   "main": "index.js",
+  "types": "types.d.ts",
   "keywords": [],
   "author": "dicedtomato",
   "license": "ISC"
